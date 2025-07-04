@@ -1,0 +1,3 @@
+1. A Brief History of the Rubik’s Cube: https://www.smithsonianmag.com/innovation/brief-history-rubiks-cube-180975911/
+robot
+3. Rubik’s cube: What separates the fastest solvers from the rest?: https://pdfs.semanticscholar.org/60d3/3ab90244d84dbe5966a2f355485481b6ea6a.pdf

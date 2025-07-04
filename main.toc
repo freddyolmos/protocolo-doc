@@ -1,22 +1,22 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
-\contentsline {section}{\numberline {2}Justificación}{4}{section.2}%
-\contentsline {section}{\numberline {3}Planteamiento del problema}{6}{section.3}%
-\contentsline {section}{\numberline {4}Propuesta de solución}{7}{section.4}%
-\contentsline {section}{\numberline {5}Objetivo general }{9}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Objetivos específicos}{9}{subsection.5.1}%
-\contentsline {section}{\numberline {6}Marco teórico}{10}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Posibles precursores sismicos}{11}{subsection.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}Patrones de quietud sísmica }{11}{subsubsection.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.2}Anomalías del campo eléctrico }{11}{subsubsection.6.1.2}%
-\contentsline {subsubsection}{\numberline {6.1.3}Anomalías del campo magnético}{11}{subsubsection.6.1.3}%
-\contentsline {subsubsection}{\numberline {6.1.4}Señales ionosféricas}{11}{subsubsection.6.1.4}%
-\contentsline {subsection}{\numberline {6.2}Elementos clave para la predicción de sismos }{12}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Estado del Arte }{14}{section.7}%
-\contentsline {subsection}{\numberline {7.1}TELESISMUX: Subsistema Telemático para una Estación Sísmica Remota }{14}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Sistema IoT para la medición, registro y visualización web de señales electromagnéticas, geo-eléctricas y acústicas asociadas a precursores sísmicos}{14}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Sistema de monitoreo y registro de señales asociadas a precursores sísmicos en la costa mexicana del Pacífico }{14}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Anomalías en las señales electromagnéticas de baja frecuencia en la banda VLF}{15}{subsection.7.4}%
-\contentsline {section}{\numberline {8}Escenario de pruebas}{17}{section.8}%
-\contentsline {section}{\numberline {9}Cronograma}{18}{section.9}%
-\contentsline {section}{\numberline {10}Glosario de términos}{20}{section.10}%
+\contentsline {section}{\numberline {2}Justificación}{5}{section.2}%
+\contentsline {section}{\numberline {3}Planteamiento del problema}{7}{section.3}%
+\contentsline {section}{\numberline {4}Propuesta de solución}{8}{section.4}%
+\contentsline {section}{\numberline {5}Objetivo general }{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Objetivos específicos}{10}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Marco teórico}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Posibles precursores sismicos}{12}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Patrones de quietud sísmica }{12}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Anomalías del campo eléctrico }{12}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}Anomalías del campo magnético}{12}{subsubsection.6.1.3}%
+\contentsline {subsubsection}{\numberline {6.1.4}Señales ionosféricas}{12}{subsubsection.6.1.4}%
+\contentsline {subsection}{\numberline {6.2}Elementos clave para la predicción de sismos }{13}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Estado del Arte }{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}TELESISMUX: Subsistema Telemático para una Estación Sísmica Remota }{15}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Sistema IoT para la medición, registro y visualización web de señales electromagnéticas, geo-eléctricas y acústicas asociadas a precursores sísmicos}{15}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Sistema de monitoreo y registro de señales asociadas a precursores sísmicos en la costa mexicana del Pacífico }{15}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Anomalías en las señales electromagnéticas de baja frecuencia en la banda VLF}{16}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Escenario de pruebas}{18}{section.8}%
+\contentsline {section}{\numberline {9}Cronograma}{19}{section.9}%
+\contentsline {section}{\numberline {10}Glosario de términos}{21}{section.10}%
