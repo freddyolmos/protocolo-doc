@@ -19,6 +19,115 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{Reese2020}{online}{}
+      \name{author}{1}{}{%
+        {{hash=136ce0ed296a4518cbd64d91bfa45835}{%
+           family={Reese},
+           familyi={R\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{136ce0ed296a4518cbd64d91bfa45835}
+      \strng{fullhash}{136ce0ed296a4518cbd64d91bfa45835}
+      \strng{bibnamehash}{136ce0ed296a4518cbd64d91bfa45835}
+      \strng{authorbibnamehash}{136ce0ed296a4518cbd64d91bfa45835}
+      \strng{authornamehash}{136ce0ed296a4518cbd64d91bfa45835}
+      \strng{authorfullhash}{136ce0ed296a4518cbd64d91bfa45835}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Smithsonian Magazine, 25-Sep-2020}
+      \field{title}{A Brief History of the Rubik’s Cube}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.smithsonianmag.com/innovation/brief-history-rubiks-cube-180975875/
+      \endverb
+      \verb{url}
+      \verb https://www.smithsonianmag.com/innovation/brief-history-rubiks-cube-180975875/
+      \endverb
+    \endentry
+    \entry{Boyce2022b}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bb50845e8a1c4749cae1905e75887e36}{%
+           family={Boyce},
+           familyi={B\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4154070fc2712558a4a33b5d45189203}{%
+           family={Storm},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c24ddf46195a996b70c295917db6f42}
+      \strng{fullhash}{0c24ddf46195a996b70c295917db6f42}
+      \strng{bibnamehash}{0c24ddf46195a996b70c295917db6f42}
+      \strng{authorbibnamehash}{0c24ddf46195a996b70c295917db6f42}
+      \strng{authornamehash}{0c24ddf46195a996b70c295917db6f42}
+      \strng{authorfullhash}{0c24ddf46195a996b70c295917db6f42}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Emerging Investigators}
+      \field{note}{Análisis de pausas y tiempos por etapa}
+      \field{title}{Rubik’s Cube: What separates the fastest solvers from the rest?}
+      \field{volume}{5}
+      \field{year}{2022}
+      \field{pages}{3\bibrangedash 4}
+      \range{pages}{2}
+    \endentry
+    \entry{Perdomo2003}{article}{}
+      \name{author}{1}{}{%
+        {{hash=214a112e55a84279113171190f9ee971}{%
+           family={Perdomo},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{214a112e55a84279113171190f9ee971}
+      \strng{fullhash}{214a112e55a84279113171190f9ee971}
+      \strng{bibnamehash}{214a112e55a84279113171190f9ee971}
+      \strng{authorbibnamehash}{214a112e55a84279113171190f9ee971}
+      \strng{authornamehash}{214a112e55a84279113171190f9ee971}
+      \strng{authorfullhash}{214a112e55a84279113171190f9ee971}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ingeniería Mecánica}
+      \field{title}{La mecatrónica en la ingeniería contemporánea}
+      \field{volume}{1}
+      \field{year}{2003}
+      \field{pages}{7\bibrangedash 9}
+      \range{pages}{3}
+    \endentry
+    \entry{Gorriz2023}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=e7d559619afa1bf8c4b683c7f3594814}{%
+           family={Aliaga},
+           familyi={A\bibinitperiod},
+           given={A.\bibnamedelimi Górriz},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Escuela Técnica Superior de Ingeniería del Diseño, Universitat Politècnica de València (ETSID-UPV)}%
+      }
+      \strng{namehash}{e7d559619afa1bf8c4b683c7f3594814}
+      \strng{fullhash}{e7d559619afa1bf8c4b683c7f3594814}
+      \strng{bibnamehash}{e7d559619afa1bf8c4b683c7f3594814}
+      \strng{authorbibnamehash}{e7d559619afa1bf8c4b683c7f3594814}
+      \strng{authornamehash}{e7d559619afa1bf8c4b683c7f3594814}
+      \strng{authorfullhash}{e7d559619afa1bf8c4b683c7f3594814}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Diseño y desarrollo de un sistema robotizado capaz de resolver un cubo de Rubik mediante un robot colaborativo y visión artificial}
+      \field{type}{Trabajo Final de Grado}
+      \field{year}{2023}
+    \endentry
     \entry{SGM2023}{misc}{}
       \name{author}{1}{}{%
         {{hash=47e5e099c2de0943fe2a8086112fbfed}{%
@@ -32,8 +141,8 @@
       \strng{authornamehash}{47e5e099c2de0943fe2a8086112fbfed}
       \strng{authorfullhash}{47e5e099c2de0943fe2a8086112fbfed}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Recuperado de https://www.sgm.gob.mx/Web/MuseoVirtual/Riesgos-geologicos/Sismologia-de-Mexico.html}
@@ -53,8 +162,8 @@
       \strng{authornamehash}{47e5e099c2de0943fe2a8086112fbfed}
       \strng{authorfullhash}{47e5e099c2de0943fe2a8086112fbfed}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Accedido el 24 de abril de 2023}
@@ -82,8 +191,8 @@
       \strng{authorbibnamehash}{c8d6f13ebc15240df2b5eaa4c522f00a}
       \strng{authornamehash}{c8d6f13ebc15240df2b5eaa4c522f00a}
       \strng{authorfullhash}{c8d6f13ebc15240df2b5eaa4c522f00a}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://www2.ssn.unam.mx:8080/sismos-fuertes/}}
@@ -111,8 +220,8 @@
       \strng{authorbibnamehash}{9f6cf1af05794680567726d010bddbd7}
       \strng{authornamehash}{9f6cf1af05794680567726d010bddbd7}
       \strng{authorfullhash}{9f6cf1af05794680567726d010bddbd7}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annual Review of Earth and Planetary Sciences}
@@ -140,8 +249,8 @@
       \strng{authorbibnamehash}{47b27f3d723db9f0c363b3c37024b459}
       \strng{authornamehash}{47b27f3d723db9f0c363b3c37024b459}
       \strng{authorfullhash}{47b27f3d723db9f0c363b3c37024b459}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Geotimes}
@@ -368,8 +477,8 @@
       \strng{authorbibnamehash}{5bcd94f47856c2dc304658a04fd84889}
       \strng{authornamehash}{5bcd94f47856c2dc304658a04fd84889}
       \strng{authorfullhash}{5bcd94f47856c2dc304658a04fd84889}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Science}
@@ -459,8 +568,8 @@
       \strng{authorbibnamehash}{20c34921b15e5f2b143d8cb9a9ba0f31}
       \strng{authornamehash}{20c34921b15e5f2b143d8cb9a9ba0f31}
       \strng{authorfullhash}{20c34921b15e5f2b143d8cb9a9ba0f31}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Trabajo Terminal, Instituto Politécnico Nacional, Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas}
