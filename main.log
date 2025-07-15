@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.4)  8 JUL 2025 17:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.4)  15 JUL 2025 17:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -783,48 +783,42 @@ LaTeX Info: Redefining \% on input line 15.
  [3
 
 
-]
-Underfull \hbox (badness 2608) in paragraph at lines 18--19
-[]\T1/cmr/m/n/12 Por otro la-do, el ro-bot tam-bién tie-ne apli-ca-cio-nes den-tro del ám-bi-to edu-ca-ti-vo,
- []
-
-)
+])
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
  [4]
 \openout2 = `2justificacion/justificacion.aux'.
 
  (./2justificacion/justificacion.tex
-<img/placas.png, id=169, 460.72125pt x 333.245pt>
-File: img/placas.png Graphic file (type png)
-<use img/placas.png>
-Package pdftex.def Info: img/placas.png  used on input line 5.
-(pdftex.def)             Requested size: 352.31625pt x 254.83496pt.
-<img/SSNMX_mapa_sismicidad_2022_web.png, id=175, 2370.456pt x 1491.171pt>
-File: img/SSNMX_mapa_sismicidad_2022_web.png Graphic file (type png)
-<use img/SSNMX_mapa_sismicidad_2022_web.png>
-Package pdftex.def Info: img/SSNMX_mapa_sismicidad_2022_web.png  used on input line 16.
-(pdftex.def)             Requested size: 352.31625pt x 221.6182pt.
-LaTeX Info: Redefining \. on input line 19.
-LaTeX Info: Redefining \% on input line 19.
- [5
+Underfull \hbox (badness 2573) in paragraph at lines 8--9
+[]\T1/cmr/m/n/12 En tér-mi-nos for-ma-ti-vos, el pro-yec-to ac-túa co-mo ca-ta-li-za-dor de las com-pe-ten-cias
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 8--9
+\T1/cmr/m/n/12 pro-fe-sio-na-les que de-man-da la In-dus-tria 4.0: ca-pa-ci-dad de in-te-gra-ción tec-no-ló-gi-ca,
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 12--13
+[]\T1/cmr/bx/n/12 Cognitivo^^Ueducativo\T1/cmr/m/n/12 . Am-pliar los be-ne-fi-cios de-mos-tra-dos del cu-bo Ru-bik,
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 13--14
+[]\T1/cmr/bx/n/12 Tecnológico^^Uprofesional\T1/cmr/m/n/12 . Mos-trar la me-ca-tró-ni-ca co-mo res-pues-ta na-tu-ral y
+ []
+
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+[5
 
 
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.19 \end{figure}
-                  <./img/placas.png>])
+])
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
- [6
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.12     \include{2justificacion/justificacion}
-                                                <./img/SSNMX_mapa_sismicidad_2022_web.png>]
+ [6]
 \openout2 = `3planteamiento/planteamiento.aux'.
 
  (./3planteamiento/planteamiento.tex)
@@ -838,7 +832,7 @@ LaTeX Info: Redefining \% on input line 13.
 \openout2 = `4propuestaSolucion/propuetaSolucion.aux'.
 
  (./4propuestaSolucion/propuetaSolucion.tex
-<img/arquitectura.drawio.png, id=219, 581.17125pt x 332.24126pt>
+<img/arquitectura.drawio.png, id=191, 581.17125pt x 332.24126pt>
 File: img/arquitectura.drawio.png Graphic file (type png)
 <use img/arquitectura.drawio.png>
 Package pdftex.def Info: img/arquitectura.drawio.png  used on input line 8.
@@ -860,7 +854,7 @@ LaTeX Info: Redefining \% on input line 20.
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.20 \item R
@@ -1327,7 +1321,7 @@ Overfull \hbox (7.03627pt too wide) in paragraph at lines 6--37
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/crono.png, id=293, 705.63625pt x 214.8025pt>
+<img/crono.png, id=274, 705.63625pt x 214.8025pt>
 File: img/crono.png Graphic file (type png)
 <use img/crono.png>
 Package pdftex.def Info: img/crono.png  used on input line 43.
@@ -1341,7 +1335,7 @@ LaTeX Info: Redefining \% on input line 19.
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.19     \include{9cronograma/cronograma}
@@ -1373,13 +1367,8 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 21
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 22--22
-[]\T1/cmr/m/n/12 Servicio Geo-ló-gi-co Me-xi-cano, \T1/cmr/m/it/12 Sis-mo-lo-gía de Mé-xi-co\T1/cmr/m/n/12 , Re-cu-pe-ra-do de
- []
-
-
-Overfull \hbox (41.52249pt too wide) in paragraph at lines 22--22
-\T1/cmr/m/n/12 https://www.sgm.gob.mx/Web/MuseoVirtual/Riesgos-geologicos/Sismologia-de-Mexico.html,
+Underfull \hbox (badness 2644) in paragraph at lines 22--22
+[]\T1/cmr/m/n/12 M. Wyss, ^^S  Can-not earth-qua-kes be pre-dic-ted?^^T \T1/cmr/m/it/12 Scien-ce\T1/cmr/m/n/12 , vol. 278, n.[] 5337,
  []
 
 
@@ -1395,15 +1384,11 @@ LaTeX Info: Redefining \% on input line 21.
 
 
 ]
-Underfull \hbox (badness 2644) in paragraph at lines 22--22
-[]\T1/cmr/m/n/12 M. Wyss, ^^S  Can-not earth-qua-kes be pre-dic-ted?^^T \T1/cmr/m/it/12 Scien-ce\T1/cmr/m/n/12 , vol. 278, n.[] 5337,
- []
-
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
-[23] (./main.aux (./0portada/portada.aux)
+ [23] (./main.aux (./0portada/portada.aux)
 LaTeX Info: Redefining \sptext on input line 13.
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
@@ -1419,18 +1404,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19760 strings out of 474222
- 351817 string characters out of 5748734
- 1940975 words of memory out of 5000000
- 41610 multiletter control sequences out of 15000+600000
+ 19750 strings out of 474222
+ 351551 string characters out of 5748734
+ 1939975 words of memory out of 5000000
+ 41599 multiletter control sequences out of 15000+600000
  570582 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,13n,86p,1523b,1884s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (24 pages, 7596165 bytes).
+Output written on main.pdf (24 pages, 313990 bytes).
 PDF statistics:
- 398 PDF objects out of 1000 (max. 8388607)
- 337 compressed objects within 4 object streams
- 75 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 381 PDF objects out of 1000 (max. 8388607)
+ 324 compressed objects within 4 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 179 words of extra memory for PDF output out of 10000 (max. 10000000)
 

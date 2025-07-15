@@ -309,16 +309,6 @@ OUTPUT 2justificacion/justificacion.aux
 INPUT ./2justificacion/justificacion.tex
 INPUT ./2justificacion/justificacion.tex
 INPUT 2justificacion/justificacion.tex
-INPUT ./img/placas.png
-INPUT ./img/placas.png
-INPUT ./img/placas.png
-INPUT ./img/placas.png
-INPUT ./img/placas.png
-INPUT ./img/SSNMX_mapa_sismicidad_2022_web.png
-INPUT ./img/SSNMX_mapa_sismicidad_2022_web.png
-INPUT ./img/SSNMX_mapa_sismicidad_2022_web.png
-INPUT ./img/SSNMX_mapa_sismicidad_2022_web.png
-INPUT ./img/SSNMX_mapa_sismicidad_2022_web.png
 INPUT ./3planteamiento/planteamiento.tex
 INPUT ./3planteamiento/planteamiento.tex
 OUTPUT 3planteamiento/planteamiento.aux
