@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.4)  15 JUL 2025 17:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.4)  17 SEP 2025 13:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -654,7 +654,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
+ (./main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Monzon2017
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 3.
 Package biblatex Info: Reference segment=0 on input line 3.
 Package hyperref Info: Link coloring ON on input line 3.
@@ -821,18 +829,27 @@ LaTeX Info: Redefining \% on input line 12.
  [6]
 \openout2 = `3planteamiento/planteamiento.aux'.
 
- (./3planteamiento/planteamiento.tex)
+ (./3planteamiento/planteamiento.tex
+
+LaTeX Warning: Citation 'Monzon2017' on page 7 undefined on input line 6.
+
+
+LaTeX Warning: Citation 'Monzon2017' on page 7 undefined on input line 10.
+
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+[7
+
+
+
+])
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
- [7
-
-
-
-]
+ [8]
 \openout2 = `4propuestaSolucion/propuetaSolucion.aux'.
 
  (./4propuestaSolucion/propuetaSolucion.tex
-<img/arquitectura.drawio.png, id=191, 581.17125pt x 332.24126pt>
+<img/arquitectura.drawio.png, id=205, 581.17125pt x 332.24126pt>
 File: img/arquitectura.drawio.png Graphic file (type png)
 <use img/arquitectura.drawio.png>
 Package pdftex.def Info: img/arquitectura.drawio.png  used on input line 8.
@@ -849,7 +866,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
-[8
+[9
 
 
 
@@ -861,13 +878,13 @@ l.20 \item R
             ecolección de datos: \\ <./img/arquitectura.drawio.png>])
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
- [9]
+ [10]
 \openout2 = `5objetivos/objetivos.aux'.
 
  (./5objetivos/objetivos.tex
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
- [10
+ [11
 
 
 
@@ -877,7 +894,7 @@ LaTeX Info: Redefining \% on input line 15.
  (./6marcoTeorico/marcoTeorico.tex
 LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
- [11
+ [12
 
 
 
@@ -887,17 +904,17 @@ LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
- [12]
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
  [13]
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
+ [14]
 LaTeX Info: Redefining \. on input line 50.
 LaTeX Info: Redefining \% on input line 50.
 LaTeX Info: Redefining \. on input line 50.
 LaTeX Info: Redefining \% on input line 50.
- [14])
+ [15])
 \openout2 = `7estadoArte/estadoArte.aux'.
 
  (./7estadoArte/estadoArte.tex
@@ -907,7 +924,7 @@ Underfull \hbox (badness 1275) in paragraph at lines 7--7
 
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
-[15
+[16
 
 
 
@@ -1069,12 +1086,12 @@ LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
 LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
-[16]
+[17]
 LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
 LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
- [17
+ [18
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1085,7 +1102,7 @@ l.48 \clearpage
  (./8escenario/escenario.tex
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
- [18
+ [19
 
 
 
@@ -1321,7 +1338,7 @@ Overfull \hbox (7.03627pt too wide) in paragraph at lines 6--37
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/crono.png, id=274, 705.63625pt x 214.8025pt>
+<img/crono.png, id=288, 705.63625pt x 214.8025pt>
 File: img/crono.png Graphic file (type png)
 <use img/crono.png>
 Package pdftex.def Info: img/crono.png  used on input line 43.
@@ -1329,7 +1346,7 @@ Package pdftex.def Info: img/crono.png  used on input line 43.
 )
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
- [19
+ [20
 
 
 
@@ -1342,7 +1359,7 @@ l.19     \include{9cronograma/cronograma}
                                           <./img/crono.png>]
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
- [20
+ [21
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1358,7 +1375,7 @@ Underfull \hbox (badness 1303) in paragraph at lines 4--5
 )
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
- [21
+ [22
 
 
 
@@ -1371,24 +1388,23 @@ Underfull \hbox (badness 2644) in paragraph at lines 22--22
 []\T1/cmr/m/n/12 M. Wyss, ^^S  Can-not earth-qua-kes be pre-dic-ted?^^T \T1/cmr/m/it/12 Scien-ce\T1/cmr/m/n/12 , vol. 278, n.[] 5337,
  []
 
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
+[23
 
+
+]
 Underfull \hbox (badness 2626) in paragraph at lines 22--22
 \T1/cmr/m/n/12 geo-mag-ne-tic va-ria-tions as-so-cia-ted with earth-qua-kes,^^T \T1/cmr/m/it/12 Sen-sors\T1/cmr/m/n/12 , vol. 7, n.[] 7,
  []
 
-LaTeX Info: Redefining \. on input line 21.
-LaTeX Info: Redefining \% on input line 21.
-LaTeX Info: Redefining \. on input line 21.
-LaTeX Info: Redefining \% on input line 21.
-[22
-
-
-]
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
- [23] (./main.aux (./0portada/portada.aux)
+[24] (./main.aux (./0portada/portada.aux)
 LaTeX Info: Redefining \sptext on input line 13.
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
@@ -1404,18 +1420,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19750 strings out of 474222
- 351551 string characters out of 5748734
- 1939975 words of memory out of 5000000
- 41599 multiletter control sequences out of 15000+600000
- 570582 words of font info for 59 fonts, out of 8000000 for 9000
+ 19758 strings out of 474222
+ 351731 string characters out of 5748734
+ 1940975 words of memory out of 5000000
+ 41604 multiletter control sequences out of 15000+600000
+ 570919 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,13n,86p,1523b,1884s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (24 pages, 313990 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (25 pages, 337137 bytes).
 PDF statistics:
- 381 PDF objects out of 1000 (max. 8388607)
- 324 compressed objects within 4 object streams
- 76 named destinations out of 1000 (max. 500000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 343 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
  179 words of extra memory for PDF output out of 10000 (max. 10000000)
 

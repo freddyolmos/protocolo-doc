@@ -66,6 +66,7 @@
       \strng{authorbibnamehash}{0c24ddf46195a996b70c295917db6f42}
       \strng{authornamehash}{0c24ddf46195a996b70c295917db6f42}
       \strng{authorfullhash}{0c24ddf46195a996b70c295917db6f42}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -200,6 +201,35 @@
       \field{title}{La ingeniería mecatrónica como fundamento en la transición hacia la industria 4.0}
       \field{year}{2019}
     \endentry
+    \entry{Boyce2022}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bb50845e8a1c4749cae1905e75887e36}{%
+           family={Boyce},
+           familyi={B\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4154070fc2712558a4a33b5d45189203}{%
+           family={Storm},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c24ddf46195a996b70c295917db6f42}
+      \strng{fullhash}{0c24ddf46195a996b70c295917db6f42}
+      \strng{bibnamehash}{0c24ddf46195a996b70c295917db6f42}
+      \strng{authorbibnamehash}{0c24ddf46195a996b70c295917db6f42}
+      \strng{authornamehash}{0c24ddf46195a996b70c295917db6f42}
+      \strng{authorfullhash}{0c24ddf46195a996b70c295917db6f42}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Emerging Investigators}
+      \field{title}{Rubik’s Cube: What separates the fastest solvers from the rest?}
+      \field{volume}{5}
+      \field{year}{2022}
+    \endentry
     \entry{SSN}{misc}{}
       \name{author}{1}{}{%
         {{hash=c8d6f13ebc15240df2b5eaa4c522f00a}{%
@@ -215,8 +245,8 @@
       \strng{authorbibnamehash}{c8d6f13ebc15240df2b5eaa4c522f00a}
       \strng{authornamehash}{c8d6f13ebc15240df2b5eaa4c522f00a}
       \strng{authorfullhash}{c8d6f13ebc15240df2b5eaa4c522f00a}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://www2.ssn.unam.mx:8080/sismos-fuertes/}}
@@ -424,8 +454,8 @@
       \strng{authorbibnamehash}{76a095772206cfdead929a8e66f2ba14}
       \strng{authornamehash}{76a095772206cfdead929a8e66f2ba14}
       \strng{authorfullhash}{76a095772206cfdead929a8e66f2ba14}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Geophysical Research Letters}
@@ -463,8 +493,8 @@
       \strng{authorbibnamehash}{1a4ea617f092dc0a0932b600e0288882}
       \strng{authornamehash}{1a4ea617f092dc0a0932b600e0288882}
       \strng{authorfullhash}{1a4ea617f092dc0a0932b600e0288882}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sensors}
@@ -522,8 +552,8 @@
       \strng{authorbibnamehash}{175cfec2358152de7d98bdc47d95d4ad}
       \strng{authornamehash}{175cfec2358152de7d98bdc47d95d4ad}
       \strng{authorfullhash}{3f962297608e8dbfb26dd3dc28283d19}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Natural Hazards and Earth System Sciences}
@@ -707,8 +737,8 @@
       \strng{authorbibnamehash}{7d5b21dd7f8c11155f94dc02c89a490f}
       \strng{authornamehash}{7d5b21dd7f8c11155f94dc02c89a490f}
       \strng{authorfullhash}{7d5b21dd7f8c11155f94dc02c89a490f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Trabajo Terminal II, Instituto Politécnico Nacional, Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas}
@@ -716,6 +746,7 @@
       \field{year}{2020}
     \endentry
   \enddatalist
+  \missing{Monzon2017}
 \endrefsection
 \endinput
 
