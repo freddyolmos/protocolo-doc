@@ -1,2 +1,18 @@
+# Archivos generados por LaTeX/Biber
 *.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Productos compilados y metadatos del sistema operativo
 *.pdf
+.DS_Store
