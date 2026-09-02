@@ -1,19 +1,59 @@
-\section{Escenario de pruebas}
-El escenario de pruebas se llevara a cabo con datos registrados o medidos en diferentes épocas en las que las estaciones de monitoreo han estado en funcionamiento. Los pasos a seguir son los siguientes:
+\section{Escenario de aplicación y validación}
+\markboth{Escenario}{Escenario}
 
-\textit{Autenticación de usuario:} El usuario inicia sesión y accede al panel de control del sistema.
+El sistema se plantea para sesiones individuales de práctica con un cubo Rubik 3 $\times$ 3 físico. El usuario objetivo es un practicante que conoce la resolución básica del cubo y desea ejercitar casos seleccionados de la etapa F2L del método CFOP. El prototipo se ubicará sobre una superficie estable de trabajo y será operado bajo supervisión durante las pruebas. El usuario conservará el papel central en el entrenamiento: seleccionará el caso, colocará el cubo, esperará la preparación y resolverá manualmente la configuración obtenida.
 
-\textit{Elección de precursor a analizar:} Se selecciona el posible precursor sísmico como anomalías del campo eléctrico, magnético y señales ionosféricas de los datos que ya se cuenta.
+El escenario no busca demostrar una mejora estadística del aprendizaje ni comparar el desempeño entre grupos de usuarios. Su propósito es verificar que el sistema mecatrónico prepare casos F2L de forma correcta, repetible y segura, y determinar si reduce el tiempo destinado a la preparación manual. La evaluación se realizará con un conjunto acotado de casos definido después del análisis de requisitos.
 
-\textit{Selección de región/fecha:} El usuario elige una región de interés en un mapa interactivo (reservado a locaciones con datos de estaciones de monitoreo) así como la fecha mediante o menu desplegable de ventanas de tiempo válidas.
+\subsection{Escenario de uso}
 
-\textit{Análisis y estimación:} El sistema ejecuta las rutinas que cada precursor requiere para realizar sus estimaciones.
+La secuencia de interacción prevista es la siguiente:
 
-\textit{Visualización de resultados:} El sistema muestra gráficos, tablas y mapas para que los investigadores realicen las interpretaciones correspondientes.
+\begin{enumerate}
+    \item El usuario selecciona en la interfaz uno de los casos F2L disponibles y recibe la indicación para colocar el cubo en la posición de inicio.
+    \item El sistema comprueba las condiciones necesarias para iniciar la operación o solicita al usuario corregir la colocación del cubo.
+    \item El sistema determina la configuración objetivo del caso y ejecuta la secuencia de movimientos de preparación mediante el mecanismo de manipulación.
+    \item Al terminar, el sistema verifica la configuración obtenida con el método seleccionado durante el diseño y comunica al usuario si la preparación fue válida, si requiere recuperación o si ocurrió un fallo.
+    \item Cuando la preparación es válida, el usuario retira o utiliza el cubo en la zona de práctica para reconocer y resolver el caso F2L de forma manual.
+    \item El usuario puede solicitar la repetición del mismo caso o seleccionar uno diferente para continuar la sesión de práctica.
+\end{enumerate}
 
-\textit{Exportación de resultados:} El usuario exporta los resultados en formatos PDF, CSV o imágenes segun corresponda.
+Este flujo separa la preparación automatizada de la ejecución humana del algoritmo. Así, el sistema actúa como apoyo para presentar situaciones de práctica repetibles y no como un resolvedor autónomo del cubo.
 
-\textit{Cierre de sesión:} El usuario cierra sesión tras revisar los resultados.
+\subsection{Condiciones de prueba}
 
-Este escenario de prueba evalúa la funcionalidad, usabilidad, precisión y efectividad del sistema de análisis de precursores sísmicos y estimación de probabilidad de ocurrencia de sismo
+Las pruebas se efectuarán con cubos Rubik 3 $\times$ 3 compatibles con el mecanismo seleccionado y en una superficie de trabajo definida. Antes de cada ensayo se establecerá una condición inicial documentada para el cubo; puede ser una configuración de referencia o un estado identificado mediante el método de adquisición elegido. Para cada caso se registrarán la configuración objetivo, la secuencia ejecutada, el resultado de verificación, el tiempo de preparación y cualquier incidencia durante la operación.
+
+Los ensayos se organizarán en series de repeticiones consecutivas por caso. El número de casos, el número de repeticiones, las tolerancias de tiempo y los criterios cuantitativos de aceptación se fijarán al terminar el análisis de requisitos y después de obtener una medición base de la preparación manual. Esta decisión evita establecer valores arbitrarios antes de conocer las capacidades del mecanismo y las restricciones del prototipo.
+
+Como referencia de comparación, un practicante preparará manualmente los mismos casos bajo condiciones iniciales equivalentes. El tiempo empleado y la corrección de la configuración se registrarán con el mismo criterio utilizado para el sistema. La comparación se interpretará como evidencia de preparación asistida; no se utilizará para afirmar que el prototipo produce por sí mismo una mejora en la habilidad del usuario.
+
+\subsection{Métricas y evidencias de validación}
+
+La Tabla~\ref{tab:metricas-validacion-f2l} relaciona las métricas del problema con el método de verificación y la evidencia que deberá conservarse. La selección de precisión, tiempo y robustez es congruente con el uso del cubo Rubik como tarea de manipulación robótica secuencial \cite{Yang2020}.
+
+\begin{table}[H]
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{|p{3.0cm}|p{3.5cm}|X|}
+\hline
+\textbf{Métrica} & \textbf{Método de verificación} & \textbf{Evidencia esperada} \\ \hline
+Preparación correcta & Comparar el estado final del cubo con la configuración objetivo del caso. & Porcentaje de ensayos en los que el caso F2L queda preparado correctamente. \\ \hline
+Tiempo de preparación & Medir el intervalo entre la orden de inicio y la confirmación de preparación válida. & Tiempo por ensayo y comparación descriptiva con la preparación manual. \\ \hline
+Repetibilidad & Ejecutar series consecutivas del mismo caso desde condiciones iniciales controladas. & Variación de los resultados y número de preparaciones correctas por serie. \\ \hline
+Fallos de manipulación & Registrar eventos como atasco, giro incompleto, desalineación o interrupción de la secuencia. & Bitácora de fallos, frecuencia y procedimiento de recuperación aplicado. \\ \hline
+Seguridad de operación & Observar la colocación y retiro del cubo, la disponibilidad de paro y el comportamiento ante fallos. & Lista de verificación de condiciones seguras e incidencias detectadas. \\ \hline
+\end{tabularx}
+\caption{Métricas y evidencias para la validación del sistema de preparación de casos F2L.}
+\label{tab:metricas-validacion-f2l}
+\end{table}
+
+\clearpage
+\subsection{Criterios de validez y alcance de los resultados}
+
+Un ensayo será válido cuando la configuración inicial esté documentada, el caso solicitado pertenezca al conjunto de prueba, la secuencia se ejecute sin intervención no registrada y el estado final pueda verificarse. Si se presenta un fallo, este no se descartará: se clasificará y se incorporará al cálculo de ocurrencia de fallos. Cuando el mecanismo requiera intervención para recuperar el cubo, el hecho se anotará en la bitácora y el ensayo se repetirá únicamente con una nueva condición inicial documentada.
+
+Los resultados permitirán decidir si el concepto seleccionado satisface los requisitos de preparación física de casos F2L y cuáles subsistemas requieren ajuste. No permitirán concluir, sin un estudio posterior con participantes y un diseño experimental pedagógico, que el sistema mejora el aprendizaje, la velocidad de resolución o el rendimiento competitivo de los usuarios.
+
 \clearpage
